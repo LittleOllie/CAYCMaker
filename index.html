@@ -62,7 +62,7 @@ body {
     background-color: #3498db;
 }
 .face-button {
-    background-color: #3498db;
+    background-color: #2ecc71;
 }
 .clothing-button {
     background-color: #2ecc71;
@@ -71,7 +71,7 @@ body {
     background-color: #3498db;
 }
 .hair-button {
-    background-color: #2ecc71;
+    background-color: #d35400;
 }
 .hairhoodie-button {
     background-color: #c0392b;
@@ -89,10 +89,10 @@ body {
     background-color: #c0392b;
 }
 .hand-button {
-    background-color: #d35400;
+    background-color: #ee200b ;
 }
 .ball-button {
-    background-color: #d35400;
+    background-color: #ee200b ;
 }
 #characterDisplayContainer {
     display: flex;
@@ -246,18 +246,16 @@ button:hover {
 <div id="mainContent">
     <div id="traitSelection">
         <button class="category-button background-button" onclick="showCategory('backgroundCategory')">BACKGROUNDS</button>
-        <button class="category-button clothing-button" onclick="showCategory('clothingCategory')">CLOTHING</button>
-        <button class="category-button hoodieup-button" onclick="showCategory('hoodieupCategory')">HOODIES</button>
-        <button class="category-button accessories-button" onclick="showCategory('accessoriesCategory')">SUNGLASSES</button>
-        <button class="category-button skin-button" onclick="showCategory('skinCategory')">SKIN TONE</button>
-        <button class="category-button hair-button" onclick="showCategory('hairCategory')">HAIRSTYLES</button>
-        <button class="category-button hairhoodie-button" onclick="showCategory('hairhoodieCategory')">HAIRSTYLE (HOODIES)</button>
-        <button class="category-button hand-button" onclick="showCategory('handCategory')">HAND GESTURES</button>
         <button class="category-button face-button" onclick="showCategory('faceCategory')">FACE</button>
-        <button class="category-button hat-button" onclick="showCategory('hatCategory')">HEADWEAR</button>
-        <button class="category-button hathoodie-button" onclick="showCategory('hathoodieCategory')">HATS(HOODIES)</button>
+        <button class="category-button accessories-button" onclick="showCategory('accessoriesCategory')">SUNGLASSES</button>
+        <button class="category-button hand-button" onclick="showCategory('handCategory')">HAND GESTURES</button>
+        <button class="category-button skin-button" onclick="showCategory('skinCategory')">SKIN TONE</button>
+        <button class="category-button clothing-button" onclick="showCategory('clothingCategory')">CLOTHING</button>
+        <button class="category-button hair-button" onclick="showCategory('hairCategory')">HAIRSTYLES</button>
         <button class="category-button ball-button" onclick="showCategory('ballCategory')">BALLS</button>
         <button class="category-button fur-button" onclick="showCategory('furCategory')">FUR</button>
+        <button class="category-button hat-button" onclick="showCategory('hatCategory')">HEADWEAR</button>
+
     </div>
 
     <div id="characterDisplayContainer">
@@ -361,39 +359,7 @@ button:hover {
                 <img src="HAIR/64.PNG" alt="Black 9" onclick="selectTrait('hair', 'HAIR/64.PNG')">
             </div>
         </div>
-        <div class="trait-category" id="hairhoodieCategory">
-            <div class="trait-options">
-                <img src="HAIRHOODIEUP/A.PNG" alt="No Hair" onclick="selectTrait('hair', 'HAIRHOODIEUP/AA.PNG')">
-                <img src="HAIRHOODIEUP/9.PNG" alt="White 1" onclick="selectTrait('hair', 'HAIRHOODIEUP/9.PNG')">
-                <img src="HAIRHOODIEUP/13.PNG" alt="White 2" onclick="selectTrait('hair', 'HAIRHOODIEUP/13.PNG')">
-                <img src="HAIRHOODIEUP/21.PNG" alt="White 3" onclick="selectTrait('hair', 'HAIRHOODIEUP/21.PNG')">
-                <img src="HAIRHOODIEUP/17.PNG" alt="White 4" onclick="selectTrait('hair', 'HAIRHOODIEUP/17.PNG')">
-                <img src="HAIRHOODIEUP/1.PNG" alt="White 5" onclick="selectTrait('hair', 'HAIRHOODIEUP/1.PNG')">
-                <img src="HAIRHOODIEUP/5.PNG" alt="White 6" onclick="selectTrait('hair', 'HAIRHOODIEUP/5.PNG')">
-                <img src="HAIRHOODIEUP/25.PNG" alt="White 6" onclick="selectTrait('hair', 'HAIRHOODIEUP/25.PNG')">
-                <img src="HAIRHOODIEUP/10.PNG" alt="Blonde 1" onclick="selectTrait('hair', 'HAIRHOODIEUP/10.PNG')">
-                <img src="HAIRHOODIEUP/14.PNG" alt="Blonde 2" onclick="selectTrait('hair', 'HAIRHOODIEUP/14.PNG')">
-                <img src="HAIRHOODIEUP/22.PNG" alt="Blonde 3" onclick="selectTrait('hair', 'HAIRHOODIEUP/22.PNG')">
-                <img src="HAIRHOODIEUP/18.PNG" alt="Blonde 4" onclick="selectTrait('hair', 'HAIRHOODIEUP/18.PNG')">
-                <img src="HAIRHOODIEUP/2.PNG" alt="Blonde 5" onclick="selectTrait('hair', 'HAIRHOODIEUP/2.PNG')">
-                <img src="HAIRHOODIEUP/6.PNG" alt="Blonde 6" onclick="selectTrait('hair', 'HAIRHOODIEUP/6.PNG')">
-                <img src="HAIRHOODIEUP/26.PNG" alt="Blonde 6" onclick="selectTrait('hair', 'HAIRHOODIEUP/26.PNG')">
-                <img src="HAIRHOODIEUP/11.PNG" alt="Brown 1" onclick="selectTrait('hair', 'HAIRHOODIEUP/11.PNG')">
-                <img src="HAIRHOODIEUP/15.PNG" alt="Brown 2" onclick="selectTrait('hair', 'HAIRHOODIEUP/15.PNG')">
-                <img src="HAIRHOODIEUP/23.PNG" alt="Brown 3" onclick="selectTrait('hair', 'HAIRHOODIEUP/23.PNG')">
-                <img src="HAIRHOODIEUP/19.PNG" alt="Brown 4" onclick="selectTrait('hair', 'HAIRHOODIEUP/19.PNG')">
-                <img src="HAIRHOODIEUP/3.PNG" alt="Brown 5" onclick="selectTrait('hair', 'HAIRHOODIEUP/3.PNG')">
-                <img src="HAIRHOODIEUP/7.PNG" alt="Brown 6" onclick="selectTrait('hair', 'HAIRHOODIEUP/7.PNG')">
-                <img src="HAIRHOODIEUP/27.PNG" alt="Brown 6" onclick="selectTrait('hair', 'HAIRHOODIEUP/27.PNG')">
-                <img src="HAIRHOODIEUP/12.PNG" alt="Black 1" onclick="selectTrait('hair', 'HAIRHOODIEUP/12.PNG')">
-                <img src="HAIRHOODIEUP/16.PNG" alt="Black 2" onclick="selectTrait('hair', 'HAIRHOODIEUP/16.PNG')">
-                <img src="HAIRHOODIEUP/24.PNG" alt="Black 3" onclick="selectTrait('hair', 'HAIRHOODIEUP/24.PNG')">
-                <img src="HAIRHOODIEUP/20.PNG" alt="Black 4" onclick="selectTrait('hair', 'HAIRHOODIEUP/20.PNG')">
-                <img src="HAIRHOODIEUP/4.PNG" alt="Black 5" onclick="selectTrait('hair', 'HAIRHOODIEUP/4.PNG')">
-                <img src="HAIRHOODIEUP/8.PNG" alt="Black 6" onclick="selectTrait('hair', 'HAIRHOODIEUP/8.PNG')">
-                <img src="HAIRHOODIEUP/28.PNG" alt="Black 6" onclick="selectTrait('hair', 'HAIRHOODIEUP/28.PNG')">
-            </div>
-        </div>
+
         <div class="trait-category" id="clothingCategory">
             <div class="trait-options">
                 <img src="CLOTHING/A.PNG" alt="White Hoodie" onclick="selectTrait('clothing', 'CLOTHING/A.PNG')">
@@ -442,42 +408,17 @@ button:hover {
                 <img src="CLOTHING/22.PNG" alt="Captain Jacket" onclick="selectTrait('clothing', 'CLOTHING/22.PNG')">
             </div>
         </div>
-        <div class="trait-category" id="hoodieupCategory">
-            <div class="trait-options">
-                <img src="CLOTHING/1A.PNG" alt="White Hoodie Up" onclick="selectTrait('clothing', 'CLOTHING/1A.PNG')">
-                <img src="CLOTHING/2A.PNG" alt="Black Hoodie Up" onclick="selectTrait('clothing', 'CLOTHING/2A.PNG')">
-                <img src="CLOTHING/6A.PNG" alt="Grey Hoodie Up" onclick="selectTrait('clothing', 'CLOTHING/6A.PNG')">
-                <img src="CLOTHING/4A.PNG" alt="Maroon Hoodie Up" onclick="selectTrait('clothing', 'CLOTHING/4A.PNG')">
-                <img src="CLOTHING/5A.PNG" alt="Charcoal Hoodie Up" onclick="selectTrait('clothing', 'CLOTHING/5A.PNG')">
-                <img src="CLOTHING/3A.PNG" alt="Blue Hoodie Up" onclick="selectTrait('clothing', 'CLOTHING/3A.PNG')">
-                <img src="CLOTHING/7A.PNG" alt="Green Hoodie Up" onclick="selectTrait('clothing', 'CLOTHING/7A.PNG')">
-                <img src="CLOTHING/8A.PNG" alt="Yellow Hoodie Up" onclick="selectTrait('clothing', 'CLOTHING/8A.PNG')">
-                <img src="CLOTHING/9A.PNG" alt="Orange Hoodie Up" onclick="selectTrait('clothing', 'CLOTHING/9A.PNG')">
-                <img src="CLOTHING/10A.PNG" alt="Red Hoodie Up" onclick="selectTrait('clothing', 'CLOTHING/10A.PNG')">
-                <img src="CLOTHING/11A.PNG" alt="JPGPAPII Hoodie" onclick="selectTrait('clothing', 'CLOTHING/11A.PNG')">
-                <img src="CLOTHING/13.PNG" alt="Giraffe Hoodie" onclick="selectTrait('clothing', 'CLOTHING/13.PNG')">
-                <img src="CLOTHING/27A.PNG" alt="CAMO Hoodie Up" onclick="selectTrait('clothing', 'CLOTHING/27A.PNG')">
-                <img src="CLOTHING/28A.PNG" alt="TIGER Hoodie Up" onclick="selectTrait('clothing', 'CLOTHING/28A.PNG')">
-                <img src="CLOTHING/14A.PNG" alt="Tie-Dye Hoodie UP" onclick="selectTrait('clothing', 'CLOTHING/14A.PNG')">
-                <img src="CLOTHING/12A.PNG" alt="OLLIE Special Hoodie" onclick="selectTrait('clothing', 'CLOTHING/12A.PNG')">           
-            </div>
-        </div>
+ 
         <div class="trait-category" id="accessoriesCategory">
             <div class="trait-options">
                 <img src="GLASSES/A.PNG" alt="No Glasses" onclick="selectTrait('accessories', 'GLASSES/AA.PNG')">
                 <img src="GLASSES/1.PNG" alt="Pit Vipers" onclick="selectTrait('accessories', 'GLASSES/1.PNG')">
-                <img src="GLASSES/A1.PNG" alt="VR" onclick="selectTrait('accessories', 'GLASSES/A1.PNG')">
-                <img src="GLASSES/B.PNG" alt="VR" onclick="selectTrait('accessories', 'GLASSES/B.PNG')">
-                <img src="GLASSES/C.PNG" alt="VR" onclick="selectTrait('accessories', 'GLASSES/C.PNG')">
-                <img src="GLASSES/D.PNG" alt="VR" onclick="selectTrait('accessories', 'GLASSES/D.PNG')">
-                <img src="GLASSES/8.PNG" alt="VR" onclick="selectTrait('accessories', 'GLASSES/8.PNG')">
-                <img src="GLASSES/9.PNG" alt="CRAZY" onclick="selectTrait('accessories', 'GLASSES/9.PNG')">
-                <img src="GLASSES/2.PNG" alt="Ski Goggles" onclick="selectTrait('accessories', 'GLASSES/2.PNG')">
-                <img src="GLASSES/3.PNG" alt="3D Glasses" onclick="selectTrait('accessories', 'GLASSES/3.PNG')">
-                <img src="GLASSES/4.PNG" alt="Incognito" onclick="selectTrait('accessories', 'GLASSES/4.PNG')">
-                <img src="GLASSES/5.PNG" alt="Space Glasses" onclick="selectTrait('accessories', 'GLASSES/5.PNG')">
-                <img src="GLASSES/6.PNG" alt="Sunnies" onclick="selectTrait('accessories', 'GLASSES/6.PNG')">
-                <img src="GLASSES/7.PNG" alt="John Lennons" onclick="selectTrait('accessories', 'GLASSES/7.PNG')">
+                <img src="GLASSES/2.PNG" alt="VR" onclick="selectTrait('accessories', 'GLASSES/2.PNG')">
+                <img src="GLASSES/3.PNG" alt="VR" onclick="selectTrait('accessories', 'GLASSES/3.PNG')">
+                <img src="GLASSES/4.PNG" alt="VR" onclick="selectTrait('accessories', 'GLASSES/4.PNG')">
+                <img src="GLASSES/5.PNG" alt="VR" onclick="selectTrait('accessories', 'GLASSES/5.PNG')">
+                <img src="GLASSES/6.PNG" alt="VR" onclick="selectTrait('accessories', 'GLASSES/6.PNG')">
+                <img src="GLASSES/7.PNG" alt="CRAZY" onclick="selectTrait('accessories', 'GLASSES/7.PNG')">
             </div>
         </div>
         <div class="trait-category" id="hatCategory">
@@ -529,29 +470,7 @@ button:hover {
                 <img src="HATS/43.PNG" alt="Captain Hat" onclick="selectTrait('hat', 'HATS/43.PNG')">
             </div>
         </div>
-        <div class="trait-category" id="hathoodieCategory">
-            <div class="trait-options">
-                <img src="HATS/A.PNG" alt="No Hat" onclick="selectTrait('hat', 'HATS/AA.PNG')">
-                <img src="HATS/1.PNG" alt="Blue Beanie" onclick="selectTrait('hat', 'HATS/1.PNG')">
-                <img src="HATS/2.PNG" alt="Black Beanie" onclick="selectTrait('hat', 'HATS/2.PNG')">
-                <img src="HATS/4.PNG" alt="White Beanie" onclick="selectTrait('hat', 'HATS/4.PNG')">
-                <img src="HATS/3.PNG" alt="Green Beanie" onclick="selectTrait('hat', 'HATS/3.PNG')">
-                <img src="HATS/33.PNG" alt="JPGPAPII Hat" onclick="selectTrait('hat', 'HATS/33.PNG')">
-                <img src="HATS/19.PNG" alt="White Hair Red Backwards Hat" onclick="selectTrait('hat', 'HATS/19.PNG')">
-                <img src="HATS/20.PNG" alt="White Hair Black Backwards Hat" onclick="selectTrait('hat', 'HATS/20.PNG')">
-                <img src="HATS/21.PNG" alt="White Hair Blue Backwards Hat" onclick="selectTrait('hat', 'HATS/21.PNG')">
-                <img src="HATS/22.PNG" alt="Blonde Hair Red Backwards Hat" onclick="selectTrait('hat', 'HATS/22.PNG')">
-                <img src="HATS/23.PNG" alt="Blonde Hair Black Backwards Hat" onclick="selectTrait('hat', 'HATS/23.PNG')">
-                <img src="HATS/24.PNG" alt="Blonde Hair Blue Backwards Hat" onclick="selectTrait('hat', 'HATS/24.PNG')"> 
-                <img src="HATS/25.PNG" alt="Brown Hair Red Backwards Hat" onclick="selectTrait('hat', 'HATS/25.PNG')">
-                <img src="HATS/26.PNG" alt="Brown Hair Black Backwards Hat" onclick="selectTrait('hat', 'HATS/26.PNG')">
-                <img src="HATS/27.PNG" alt="Brown Hair Blue Backwards Hat" onclick="selectTrait('hat', 'HATS/27.PNG')"> 
-                <img src="HATS/28.PNG" alt="Black Hair Red Backwards Hat" onclick="selectTrait('hat', 'HATS/28.PNG')">
-                <img src="HATS/29.PNG" alt="Black Hair Black Backwards Hat" onclick="selectTrait('hat', 'HATS/29.PNG')">
-                <img src="HATS/30.PNG" alt="Black Hair Blue Backwards Hat" onclick="selectTrait('hat', 'HATS/30.PNG')"> 
-                <img src="HATS/42.PNG" alt="Halo" onclick="selectTrait('hat', 'HATS/42.PNG')">
-            </div>
-        </div>
+
         <div class="trait-category" id="handCategory"> 
             <div class="trait-options">
                 <img src="HANDS/A.PNG" alt="No Hand Gesture" onclick="selectTrait('hand', 'HANDS/AA.PNG')">
